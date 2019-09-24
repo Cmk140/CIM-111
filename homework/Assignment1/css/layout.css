@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Hind+Guntur|Indie+Flower|Kalam|Lora&display=swap');
+  body{
+  background-color: lightgreen;
+  background-color: rgb(255,0,0);
+  /* comment is made by command / */
+  /* regb color red: 0-255 green: 0-255 blue:0-255 */
+background-color: rgb(255,255,255);
+background-color: rgb(0,0,0);
+background-color: darksalmon;
+background-color: blueviolet;
+  }
+  section{
+background-color: pink;
+background-color: rgba(255,255,255,0.4);
+  }
+h1{
+  color:lightskyblue;
+  font-size: 200px;
+  font-family: 'Amatic SC', cursive;
+}
+h2{
+  color:purple;
+  font-size: 60px;
+  font-family: 'Kalam', cursive;
+}
+h3{
+  color:purple;
+  font-size: 40px;
+  font-family: 'Kalam', cursive;
+}
+h3 em {
+  font-family:sans-serif;
+  color: yellow;
+  text-decoration: underline;
+}
+h4{
+  color:purple;
+  font-size: 30px;
+  font-family: 'Kalam', cursive;
+}
+li{
+  font-size: 20px;
+  list-style: circle;
+  font-family: 'Hind Guntur', sans-serif;
+
+}
+
+ul li{
+
+
+list-style: none;
+font-family: 'Hind Guntur', sans-serif;
+}
+
+    #centerName{
+      text-align: center;
+    }
+
+    .bolder{
+      font-weight: bolder;
+    }
+a{
+color:pink;
+text-decoration: none;
+}
+
+a:visited{
+  color: aqua;
+}
+
+a:hover{
+background-color: red;
+font-style: italic;
+}
+
+p{
+ font-family: 'Dancing Script', cursive;
+}
+
+address{font-family: 'Kalam', cursive;}
+
+#right{
+  text-align: right;
+  color: purple;
+  font-family: 'Hind Guntur', sans-serif;
+}
+
+#info{
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  color: violet
+
+}
+
+#yellow{
+  font-family: 'Lora', serif;
+  font-size: 25px;
+  color: violet
+
+}
+
+#hello{
+ font-size: 45px;
+ color: pink;
+ text-align: right;
+}
+
+#left{
+  text-align: right;
+}
+
+
+
+  .exampleText {
+    writing-mode: vertical-rl;
+    background-color: purple;
+    block-size: 30px;
+    font-family: 'Amatic SC', cursive;
+  }

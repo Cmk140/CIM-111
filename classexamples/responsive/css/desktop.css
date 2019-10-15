@@ -1,0 +1,132 @@
+header{
+  background-color: wheat;
+  width: 960px;
+  height: auto;
+  border-width: 0px 0px 10px 0px;
+  border-style: solid;
+  border-color: black;
+
+  margin:0 auto;
+  margin-top: -10px;
+
+}
+main{
+  background-color: beige;
+  width: 920px; /* rember to adjust the width according the the padding */
+  /* height: 100px; */
+  height: auto;
+  /* height: auto; allows the container to grow depending on contenet */
+
+  padding: 20px;
+  /* all sides */
+
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-botton: 20px;
+  padding-left: 20px;
+  /* each side alone */
+
+  padding: 20px 20px 20px 20px; /* top right bottom left */
+
+  border-width: 5px; /* adds border on all side */
+    border-style: dashed;
+    border-color: rosybrown;
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+
+}
+
+footer{
+  background-color: wheat;
+  width: 960px;
+  height: auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  /* if height is set to auto and the containter has no content the bpox withh collaps and not appear */
+}
+
+nav{
+background-color: tan;
+width: 320px;
+margin: 0 auto;
+border-width: 5px;
+border-style: dashed;
+border-color: linen;
+
+
+}
+
+nav ul {
+
+
+
+
+}
+
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-right: 20px;
+padding: 5px;
+
+}
+
+nav ul li a{
+color: white;
+text-decoration: none;
+
+}
+nav ul li:hover{
+  background-color: wheat;
+
+
+}
+
+#grid1{
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 150px;
+  grid-template-columns: 190px 590px;
+  grid-column-gap: 20px;
+}
+
+#grid2{
+  width: 800px;
+  height: auto;
+  margin: 20px auto;
+  display: grid;
+  grid-template-rows: 250px;
+  grid-template-columns: 390px 390px;
+  grid-column-gap: 20px;
+}
+
+#grid2 img{
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+}
+
+
+#grid3{
+  width: 800px;
+  height: auto;
+  margin: 0 auto;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-column-gap: 20px;
+}
+
+#grid3 img{
+  width: 500px;
+  margin: 0 auto;
+  display: block;
+}

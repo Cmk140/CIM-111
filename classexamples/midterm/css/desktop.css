@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Anton|Cinzel|Luckiest+Guy|Open+Sans+Condensed:300&display=swap');
+
+h1{
+font-family:'Luckiest Guy', cursive;
+font-size: 55px;
+text-align: center;
+color: Navy;
+}
+
+h2{
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  text-align:center;
+  color: Navy;
+}
+
+p{
+font-family: 'Cinzel', serif;
+font-size: 15px;
+text-align: left;
+}
+
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-right: 25px;
+padding: 5px;
+font-family: 'Amatic SC', cursive;
+
+}
+
+nav ul li a{
+color: navy;
+text-decoration: none;
+font-size: 30px;
+}
+
+nav ul li:hover{
+  background-color: white;
+}
+
+header{
+    width:960px;
+    height:auto;
+    background-color:lightsteelblue;
+    margin:0 auto;
+    padding-bottom:20px;
+    padding-top:10px;
+    padding-right: 8px;
+    padding-left: 8px;
+    }
+
+    main{
+      width: 960px;
+    /*  height: 500px;*/
+    height:1422px;
+      background-color: cornflowerblue;
+      margin:0 auto;
+      padding-bottom:20px;
+      padding-top:20px;
+      padding-right: 8px;
+      padding-left: 8px;
+    }
+
+    footer{
+      width: 960px;
+      height: 150px;
+      background-color:lightsteelblue;
+      margin:0 auto;
+      padding-bottom:20px;
+      padding-top:20px;
+      padding-right: 8px;
+      padding-left: 8px;
+    }
+    nav{
+    background-color: lightsteelblue;
+    width: 320px;
+    margin: 0 auto;
+    border-width: 5px;
+    border-style: solid;
+    border-color: cornflowerblue;
+
+
+    }
+
+  #grid1{
+        width: 900px;
+        height: auto;
+        margin: 0 auto;
+        display:grid;
+        grid-template-rows:290px;
+        grid-template-columns:280px 300px 280px;
+        grid-column-gap:40px;
+
+      }
+      #grid1 img{
+        width:250px;}
+
+        #grid2{
+              width: 900px;
+              height: auto;
+              margin: 0 auto;
+              display: grid;
+              grid-template-rows: 280px;
+              grid-template-columns: 280px 280px 280px;
+              grid-column-gap:20px;
+            }
+            #grid2 img{
+              width:280px;
+              vertical-align: bottom;
+              display: block;
+
+            }
+
+    #grid3{
+      width: 620px;
+      height: auto;
+      margin: 0 auto;
+      display:grid;
+      grid-template-rows:450px;
+      grid-template-columns: 300px 300px;
+      grid-column-gap:20px;
+    }
+    #grid3 img{
+      width:280px;
+    }
+
+      #grid4{
+            width: 900px;
+            height: auto;
+            margin: 0 auto;
+            display:grid;
+            grid-template-rows:300px;
+            grid-template-columns:310px 580px 300px 280px;
+            grid-column-gap:20px;
+            align-items: center;
+          }
+          #grid4 img{
+            width:280px;}

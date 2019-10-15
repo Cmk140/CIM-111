@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Box Model</title>
+    <style media="screen">
+header{
+  background-color: wheat;
+  width: 960px;
+  height: auto;
+  border-width: 0px 0px 10px 0px;
+  border-style: solid;
+  border-color: black;
+
+  margin:0 auto;
+  margin-top: -10px;
+
+}
+main{
+  background-color: beige;
+  width: 920px; /* rember to adjust the width according the the padding */
+  /* height: 100px; */
+  height: auto;
+  /* height: auto; allows the container to grow depending on contenet */
+
+  padding: 20px;
+  /* all sides */
+
+
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-botton: 20px;
+  padding-left: 20px;
+  /* each side alone */
+
+  padding: 20px 20px 20px 20px; /* top right bottom left */
+
+  border-width: 5px; /* adds border on all side */
+    border-style: dashed;
+    border-color: rosybrown;
+
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+
+}
+
+footer{
+  background-color: wheat;
+  width: 960px;
+  height: auto;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 0px;
+  margin-left: auto;
+  /* if height is set to auto and the containter has no content the bpox withh collaps and not appear */
+}
+
+nav{
+background-color: tan;
+width: 320px;
+margin: 0 auto;
+border-width: 5px;
+border-style: dashed;
+border-color: linen;
+
+
+}
+
+nav ul {
+
+
+
+
+}
+
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-right: 20px;
+padding: 5px;
+
+}
+
+nav ul li a{
+color: white;
+text-decoration: none;
+
+}
+nav ul li:hover{
+  background-color: wheat;
+
+
+}
+
+section img{
+width: 455px;
+display: inline-block;
+}
+
+section p{
+width: 445px;
+display: inline-block;
+vertical-align: top;
+}
+    </style>
+  </head>
+  <body>
+
+<header>
+  <h1> Header</h1>
+  <nav>
+    <ul>
+      <li>
+        <a href="">Home</a>
+       </li>
+
+       <li>
+         <a href="">About Me</a>
+        </li>
+
+        <li>
+          <a href="">Hobbies</a>
+         </li>
+
+    </ul>
+  </nav>
+</header>
+
+
+<main>
+  <h1>Main</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+<section>
+<img src="https://live.staticflickr.com/3036/2343565691_7b5f90d4c7_b.jpg" alt="image1">
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+<section>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/56d3bf34683777.56d989d570716.jpg " alt="image2">
+
+
+
+</section>
+
+
+</section>
+
+
+</main>
+
+
+<footer>
+<h1> Footer </h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Show Hide Example</title>
+<style media="screen">
+  .grid{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 2fr;
+  }
+</style>
+
+  </head>
+  <body>
+
+    <h1 id="show1">Click To Show Section 1 </h1>
+    <h1 id="hide1">Click TO hide section 1</h1>
+    <h1 id="toggle1">Click to toggle section 1 </h1>
+    <section class="grid" id=section1>
+      <h2>Section 1</h2>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </section>
+<h1 id="mouse1">Mouse to Show and Hide</h1>
+<section class="grid" id=section2>
+  <h2>Section 2</h2>
+  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+</section>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#section1").hide();
+        $(".grid").hide();
+        $("#show1").click(function(){
+          $("#section1").show();
+        })
+        $("#hide1").click(function(){
+          $("#section1").hide();
+        })
+      });
+
+    $("#mouse1").mouseenter(function(){
+      $("#section2").show();
+    });
+
+    $("#mouse1").mouseleave(function(){
+      $("#section2").hide();
+
+      $("#toggle1").click(function(){
+      $("#section1").slideToggle(1000);
+      });
+    });
+
+
+    </script>
+
+
+
+
+  </body>
+</html>

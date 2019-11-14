@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Interaction</title>
+    <style media="screen">
+      img{width:700px}
+    </style>
+  </head>
+  <body>
+
+<h1 id="changebackground">Click Here To Change Background Color</h1>
+<h1 id="changeorange">Click Here To Change Background Color</h1>
+
+<ul>
+<li id="item1" class="item">item1</li>
+<li id="item2" class="item">item2</li>
+<li id="item3" class="item">item3</li>
+</ul>
+<p id="changetext"></p>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+//All code goes here
+
+$("#changebackground").click(function(){
+$("body").css("background-color","yellow");
+}); //end of purple
+$("#changeorange").click(function(){
+$("body").css("background-color","orange");
+});//end of orange
+
+$("#item1").mouseenter(function(){
+$("#changetext").html("hello there!");
+
+})//end of item1
+
+$("#item2").mouseenter(function(){
+$("#changetext").html("<strong>this is bold</strong>");
+
+})//end of item2
+
+$("#item3").mouseenter(function(){
+
+$("#changetext").html("<img src='https://live.staticflickr.com/3320/3565287806_b14e2da179.jpg'alt='image 1'>");
+
+})//end of item3
+
+
+$(".item").mouseleave(function(){
+$("#changetext").html(" ");
+})
+
+
+
+  }); // end of document ready
+</script>
+  </body>
+</html>

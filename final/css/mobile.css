@@ -24,14 +24,34 @@ display: block;
 
 #grid1 img{
   width: 380px;
-  height: auto;
-  align-items: center;
+  display: block;
+  margin: 0 auto;
 }
-
+#grid2 img{
+  width: 380px;
+  display: block;
+  margin: 0 auto;
+}
+#grid3 img{
+  width: 380px;
+  display: block;
+  margin: 0 auto;
+}
 #map{
   padding-left: 0px;
   width: 380px;
 }
 #map img{
-  width: 300px;
+  width: 380px;
+}
+#starthere img{
+  width: 380px;
+}
+#foot img{
+width: 380px;
+}
+#top img{
+  width: 380px;
+  display: block;
+  margin: 0 auto;
 }

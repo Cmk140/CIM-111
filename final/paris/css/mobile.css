@@ -1,1 +1,47 @@
 @import "desktop.css";
+
+header{
+width: 380px;
+}
+
+main{
+width: 380px;
+}
+
+footer{
+width: 380px;
+}
+
+nav ul li{
+display: block;
+text-align: center;
+}
+
+#foot img{
+width: 380px;
+display: block;
+margin: 0 auto;
+}
+
+#grid7{
+width:380px;
+display: block;
+margin: 0 auto;
+}
+
+#topp img{
+  width: 380px;
+  display: block;
+  margin: 0 auto;
+}
+
+#hello img{
+    width: 380px;
+    display: block;
+    margin: 0 auto;
+}
+#lol img{
+  width: 180px;
+  display: block;
+  margin: 0 auto;
+}

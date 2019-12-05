@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Grand Tour of Europe</title>
+
+    <link rel="stylesheet" href="css/desktop.css" media="only screen and (min-width: 600px)">
+
+<!-- max-width =>if your browser window is less than 600px load mobile.css -->
+<link rel="stylesheet" href="css/mobile.css" media="only screen and (max-width: 600px)">
+<style media="screen">
+
+</style>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>UM Grand Tour of Europe</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="#starthere">About Me</a></li>
+          <li><a href="#map">Map</a></li>
+          <li><a href="#went">Places</a></li>
+        </ul>
+      </nav>
+    </header>
+
+<main>
+    <section id="top">
+  <img src="pic/top.png" alt="welcome" height=550px>
+  </section>
+
+  <section id="grid1">
+  <img src="pic/them.jpg" alt="some people" height=550px>
+  <img src="pic/us.jpg" alt="class" height=550px>
+  <img src="pic/class.jpg" alt="in church" height=550px>
+  </section>
+
+  <section id="map">
+    <img src="pic/map.png" alt="map" height=550px>
+  </section>
+
+
+  <section id="starthere">
+  <img src="pic/aboutme.png" alt="me" height=550px>
+  </section>
+<section id="went">
+  <h2>Countries We Visited</h2>
+  <h6 id="section2show">Click to See</h6>
+  <h6 id="section2hide">Click to Hide</h5>
+</section>
+  <section id="grid2">
+    <a href="paris/index.html"><img src="pic/paris.png" alt="paris" height=350px></a>
+    <a href="italy/index.html"><img src="pic/italy.png" alt="italy" height=350px></a>
+  </section>
+
+  <section id="grid3">
+    <a href="greece/index.html"><img src="pic/greece.png" alt="greece" height=350px></a>
+    <a href="spain/index.html"><img src="pic/spain.png" alt="spain" height=350px></a>
+  </section>
+
+</main>
+
+<footer>
+<section id="foot">
+
+
+  <img src="pic/foot.png" alt="foot" height=200px>
+</section>
+</footer>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152880183-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-152880183-1');
+</script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+  $("#grid2").hide();
+  $("#grid3").hide();
+
+
+  $("#section2show").click(function(){
+   $("#grid2").show();
+   $("#grid3").show();
+
+ });
+ $("#section2hide").click(function(){
+   $("#grid2").hide();
+   $("#grid3").hide();
+
+ });
+});
+</script>
+
+
+  </body>
+</html>

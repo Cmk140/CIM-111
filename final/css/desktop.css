@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Nanum+Myeongjo|News+Cycle|Pacifico|Playfair+Display+SC|Poiret+One|Red+Hat+Text&display=swap');
+  h1{
+    font-family: 'Playfair Display SC', serif;
+    color: rgb(0, 68, 128);
+    font-size: 60px;
+    text-align: center;
+  }
+  h2{
+    font-family: 'Poiret One', cursive;
+    color: rgb(0, 68, 128);
+    font-size: 40px;
+  }
+  h6{
+    font-family: 'Poiret One', cursive;
+    color: rgb(0, 68, 128);
+    font-size: 20px;
+  }
+  body{
+    background-color: aliceblue;
+  }
+
+  nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+  padding: 0px;
+  }
+
+ nav li a{
+   text-decoration: none;
+ }
+  nav{
+  background-color: steelblue;
+  width: auto;
+  margin: 0 auto;
+  border-width: 3px;
+  border-style: solid;
+  border-color: steelblue;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  }
+
+  header{
+  width:auto;
+  height:auto;
+  background-color:lightblue;
+  margin:0 auto;
+  padding-bottom:20px;
+  padding-top:10px;
+  padding-right: 8px;
+  padding-left: 8px;
+  }
+
+  main{
+    width: 1060px;
+  /*  height: 500px;*/
+    height:0 auto;
+    background-color:aliceblue;
+    margin:0 auto;
+    padding-bottom:20px;
+    padding-top:20px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  footer{
+  width:auto;
+  height:auto;
+  background-color:lightblue;
+  margin:0 auto;
+  align-items: center;
+  }
+  #map{
+    padding-left: 210px;
+  }
+
+
+
+  #grid1{
+        width: auto;
+        height: auto;
+        margin: 3 auto;
+        display:grid;
+        grid-template-rows: 190px 120px ;
+        grid-template-columns:330px 280px 280px;
+        grid-column-gap:150px;
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-left: 20px;
+      }
+  #grid1 img{
+        height:300px;
+      }
+
+      #grid2{
+            width: auto;
+            height: auto;
+            margin: 3 auto;
+            display:grid;
+            padding-bottom:120px;
+            grid-template-rows: 190px 120px ;
+            grid-template-columns:180px 180px;
+            grid-column-gap:250px;
+            padding-top:5px;
+            padding-left: 115px;
+          }
+      #grid2 img{
+            height:400px;
+          }
+          #grid3{
+                width: auto;
+                height: auto;
+                margin: 3 auto;
+                display:grid;
+                grid-template-rows: 190px 120px ;
+                grid-template-columns:180px 180px;
+                grid-column-gap:250px;
+                padding-bottom:110px;
+                padding-left: 115px;
+
+              }
+          #grid3 img{
+                height:400px;
+              }
+              #foot{
+                padding-left: 180px;
+              }

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel|Nanum+Myeongjo|News+Cycle|Pacifico|Playfair+Display+SC|Poiret+One|Red+Hat+Text&display=swap');
+
+h1{
+  font-family: 'Playfair Display SC', serif;
+  color: rgb(0, 68, 128);
+  font-size: 60px;
+  text-align: center;
+}
+#foot{
+  padding-left: 180px;
+}
+nav li a{
+  text-decoration: none;
+}
+p{
+  font-family: 'Red Hat Text', sans-serif;
+  font-size: 15px;
+  color: rgb(0, 54, 102);
+}
+body{
+  background-color: aliceblue;
+}
+footer{
+width:auto;
+height:auto;
+background-color:lightblue;
+margin:0 auto;
+padding-bottom:20px;
+padding-top:10px;
+padding-right: 8px;
+padding-left: 8px;
+align-items: center;
+}
+
+  nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-right: 15px;
+  padding: 0px;
+  }
+
+  nav{
+  background-color: steelblue;
+  width: auto;
+  margin: 0 auto;
+  border-width: 3px;
+  border-style: solid;
+  border-color: steelblue;
+  font-family: 'Poiret One', cursive;
+  text-align: center;
+  }
+
+  header{
+  width:auto;
+  height:auto;
+  background-color:lightblue;
+  margin:0 auto;
+  padding-bottom:20px;
+  padding-top:10px;
+  padding-right: 8px;
+  padding-left: 8px;
+  }
+  #grid17{
+    padding-left: 110px;
+  }
+  #grid100{
+  padding-left: 180px;
+  }
+  #grid15{
+        width: auto;
+        height: auto;
+        margin: 3 auto;
+        display:grid;
+        padding-bottom:120px;
+        grid-template-rows: 120px 120px ;
+        grid-template-columns:700px 100px;
+        grid-column-gap:150px;
+        padding-top:5px;
+        padding-left:195px;
+        padding-bottom:200px;
+      }
+  #grid15 img{
+        height:400px;
+      }
+      #grid16{
+            width: auto;
+            height: auto;
+            margin: 3 auto;
+            display:grid;
+            padding-bottom:120px;
+            grid-template-rows: 120px 120px ;
+            grid-template-columns:700px 100px;
+            grid-column-gap:100px;
+            padding-top:5px;
+            padding-left:170px;
+            padding-bottom:235px;
+          }
+      #grid16 img{
+            height:400px;
+          }
+        #grid45{
+          padding-left: 140px;
+        }

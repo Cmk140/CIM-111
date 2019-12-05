@@ -1,0 +1,31 @@
+@import "desktop.css";
+header{
+width: 380px;
+}
+
+main{
+width: 380px;
+}
+
+footer{
+width: 380px;
+}
+nav ul li{
+display: block;
+text-align: center;
+}
+
+#grid100, #grid17, #grid15, #grid16, #grid45{
+width: 380px;
+display: block;
+}
+
+img{
+  width: 60px;
+  height: 50px;
+}
+
+
+#map{
+  padding-left: 0px;
+}

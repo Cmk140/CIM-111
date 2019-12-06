@@ -69,9 +69,7 @@
   margin:0 auto;
 
   }
-  #map{
-    padding-left: 210px;
-  }
+
 
 
 
@@ -121,7 +119,7 @@
           #grid3 img{
                 height:400px;
               }
-              
+
               #foot img{
                 display: block;
                 margin: 0 auto;
@@ -130,9 +128,9 @@
               #map{
                 display: block;
                 margin: 0 auto;
-                width: 1000px;
-                padding-left: 200px;
-                padding-right: 200px;
+                width: 700px;
+
+              
               }
 
               #top img{

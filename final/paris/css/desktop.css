@@ -42,13 +42,13 @@
             display:grid;
             grid-template-rows: 190px 120px ;
             grid-template-columns:580px 180px;
-            grid-column-gap:150px;
+            grid-column-gap:120px;
             padding-top:20px;
             padding-bottom:250px;
             padding-left:120px;
 
           }
-      #lol img{
+      #grid7 img{
             width:400px;
           }
           h1{

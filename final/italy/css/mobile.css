@@ -16,3 +16,53 @@ nav ul li{
 display: block;
 text-align: center;
 }
+#hey img{
+  width:380px;
+  display: block;
+  margin: 0 auto;
+}
+#hi img{
+  width:200px;
+  padding-left: 45px;
+  padding-top: 20px;
+}
+#grid9{
+width:380px;
+display: block;
+margin: 0 auto;
+}
+#grid30 img{
+  width: 380px;
+}
+#pink img{
+  width:200px;
+  padding-left: 45px;
+  padding-top: 20px;
+}
+#grid10 img{
+      width:200px;
+    }
+#grid10{
+  width: 380px;
+  display: block;
+}
+#rome img{
+  width:200px;
+  padding-left: 45px;
+}
+#grid11{
+  width: 380px;
+  display: block;
+}
+#grid12{
+  width: 380px;
+  display: block;
+}
+#grid60 img{
+  width: 380px;
+}
+#foot img{
+width: 380px;
+display: block;
+margin: 0 auto;
+}

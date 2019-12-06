@@ -5,9 +5,10 @@
     font-size: 60px;
     text-align: center;
   }
-  nav li a{
-    text-decoration: none;
+  body{
+    background-color: aliceblue;
   }
+
   nav ul li{
   list-style: none;
   display: inline-block;
@@ -15,6 +16,9 @@
   padding: 0px;
   }
 
+ nav li a{
+   text-decoration: none;
+ }
   nav{
   background-color: steelblue;
   width: auto;
@@ -25,7 +29,8 @@
   font-family: 'Poiret One', cursive;
   text-align: center;
   }
-  footer{
+
+  header{
   width:auto;
   height:auto;
   background-color:lightblue;
@@ -34,11 +39,26 @@
   padding-top:10px;
   padding-right: 8px;
   padding-left: 8px;
-  align-items: center;
   }
-body{
-  background-color: aliceblue;
-}
+
+  main{
+    width: 1060px;
+  /*  height: 500px;*/
+    height:0 auto;
+    background-color:aliceblue;
+    margin:0 auto;
+    padding-bottom:20px;
+    padding-top:20px;
+    padding-right: 8px;
+    padding-left: 8px;
+  }
+  footer{
+  width:auto;
+  height:auto;
+  background-color:lightblue;
+  margin:0 auto;
+
+  }
 #grid9{
       width: auto;
       height: auto;
@@ -53,7 +73,7 @@ body{
 
     }
 #grid9 img{
-      height:350px;
+      width:350px;
     }
 
     #grid10{
@@ -70,7 +90,7 @@ body{
 
         }
     #grid10 img{
-          height:350px;
+          width:240px;
         }
         #foot{
           padding-left: 180px;
@@ -83,15 +103,15 @@ body{
               display:grid;
               grid-template-rows: 120px 120px ;
               grid-template-columns:280px 680px;
-              grid-column-gap:300px;
+              grid-column-gap:100px;
               padding-top:20px;
-              padding-bottom:200px;
-              padding-left:60px;
+              padding-bottom:70px;
+              padding-left:110px;
 
             }
 
         #grid11 img{
-              height:350px;
+              width:300px;
             }
 
             #grid12{
@@ -103,20 +123,46 @@ body{
                   grid-template-columns:680px 280px;
                   grid-column-gap:150px;
                   padding-top:20px;
-                  padding-bottom:90px;
-                  padding-left:60px;
+                  padding-bottom:30px;
+                  padding-left:260px;
 
                 }
 
             #grid12 img{
-                  height:350px;
+                  width:190px;
                 }
               #grid30{
                 padding-left: 100px;
               }
+              #grid30 img{
+                width: 750px;
+              }
               #grid60{
                 padding-left: 300px;
               }
+              #grid60 img{
+                width:800px
+              }
+              #pink img{
+                width:500px;
+              }
+            #hey img{
+              width:1000px;
+              display: block;
+              margin: 0 auto;
+            }
+            #hi img{
+              width:500px;
+            }
+            #rome img{
+              width:500px;
+            }
+            #foot img{
+              display: block;
+              margin: 0 auto;
+              width: 1000px;
+            }
+
     p{
       font-family: 'Red Hat Text', sans-serif;
       font-size: 15px;

@@ -19,8 +19,6 @@ text-align: center;
 
 #foot img{
 width: 380px;
-display: block;
-margin: 0 auto;
 }
 
 #grid7{
@@ -28,7 +26,12 @@ width:380px;
 display: block;
 margin: 0 auto;
 }
+#grid7 img{
+width: 380px;
+display: block;
+margin: 0 auto;
 
+}
 #topp img{
   width: 380px;
   display: block;

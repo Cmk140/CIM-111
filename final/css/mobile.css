@@ -17,25 +17,27 @@ display: block;
 text-align: center;
 }
 
-#grid1, #grid2, #grid3{
+#grid1{
 width: 380px;
+display: block;
+}
+#grid2, #grid3{
+width: 80px;
 display: block;
 }
 
 #grid1 img{
-  width: 380px;
+
   display: block;
   margin: 0 auto;
 }
 #grid2 img{
   width: 380px;
-  display: block;
-  margin: 0 auto;
+
 }
 #grid3 img{
   width: 380px;
-  display: block;
-  margin: 0 auto;
+
 }
 #map{
   padding-left: 0px;

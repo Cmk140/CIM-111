@@ -10,6 +10,7 @@ width: 380px;
 
 footer{
 width: 380px;
+padding-left: 0px;
 }
 
 nav ul li{
@@ -26,6 +27,7 @@ width:380px;
 display: block;
 margin: 0 auto;
 padding-left: 0px;
+padding border-bottom: 20px;
 }
 #grid7 img{
 width: 380px;

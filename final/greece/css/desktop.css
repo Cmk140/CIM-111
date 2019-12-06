@@ -25,11 +25,7 @@ width:auto;
 height:auto;
 background-color:lightblue;
 margin:0 auto;
-padding-bottom:20px;
-padding-top:10px;
-padding-right: 8px;
-padding-left: 8px;
-align-items: center;
+
 }
 
   nav ul li{
@@ -92,7 +88,7 @@ align-items: center;
             grid-template-columns:700px 100px;
             grid-column-gap:100px;
             padding-top:5px;
-            padding-left:170px;
+            padding-left:70px;
             padding-bottom:235px;
           }
       #grid16 img{
@@ -100,4 +96,17 @@ align-items: center;
           }
         #grid45{
           padding-left: 140px;
+        }
+        #grid45 img{
+          width: 1000px;
+        }
+        #foot img{
+          display: block;
+          margin: 0 auto;
+          width: 1000px;
+        }
+        #gr img{
+          width: 1000px;
+          display: block;
+          margin: 0 auto;
         }

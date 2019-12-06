@@ -27,16 +27,17 @@ display: block;
 }
 
 #grid1 img{
-
+width: 380px;
   display: block;
   margin: 0 auto;
 }
 #grid2 img{
-  width: 380px;
+  width: 260px;
 
 }
 #grid3 img{
-  width: 380px;
+  width: 260px;
+
 
 }
 #map{

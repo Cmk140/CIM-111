@@ -36,9 +36,9 @@
         padding-left: 180px;
       }
       #grid7{
-            width: auto;
+            width: 1000px;
             height: auto;
-            margin: 3 auto;
+            margin: 0 auto;
             display:grid;
             grid-template-rows: 190px 120px ;
             grid-template-columns:580px 180px;
@@ -50,6 +50,7 @@
           }
       #grid7 img{
             width:400px;
+            margin: 0 auto;
           }
           h1{
             font-family: 'Playfair Display SC', serif;

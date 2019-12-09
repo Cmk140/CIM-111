@@ -6,9 +6,7 @@ h1{
   font-size: 60px;
   text-align: center;
 }
-#foot{
-  padding-left: 180px;
-}
+
 nav li a{
   text-decoration: none;
 }
@@ -59,8 +57,15 @@ margin:0 auto;
   #grid17{
     padding-left: 110px;
   }
+  #grid17 img{
+    width: 1000px;
+    margin:0 auto;
+  }
   #grid100{
   padding-left: 180px;
+  }
+  #grid100 img{
+    width: 1000px;
   }
   #grid15{
         width: auto;
@@ -76,8 +81,9 @@ margin:0 auto;
         padding-bottom:200px;
       }
   #grid15 img{
-        height:400px;
+        width:200px;
       }
+
       #grid16{
             width: auto;
             height: auto;
@@ -88,14 +94,14 @@ margin:0 auto;
             grid-template-columns:700px 100px;
             grid-column-gap:100px;
             padding-top:5px;
-            padding-left:70px;
+            padding-left:90px;
             padding-bottom:235px;
           }
       #grid16 img{
-            height:400px;
+            width:200px;
           }
         #grid45{
-          padding-left: 140px;
+          padding-left: 190px;
         }
         #grid45 img{
           width: 1000px;

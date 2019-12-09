@@ -32,9 +32,7 @@
       padding-right: 8px;
       padding-left: 8px;
       }
-      #foot{
-        padding-left: 180px;
-      }
+
       #grid7{
             width: 1000px;
             height: auto;
@@ -64,10 +62,10 @@
        color: rgb(0, 54, 102);
      }
      footer{
-     width:1000px;
+     width:auto;
      height:auto;
      background-color:lightblue;
-
+     margin:0 auto;
 
      }
      #foot img{

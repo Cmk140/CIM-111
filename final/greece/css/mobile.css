@@ -5,27 +5,85 @@ width: 380px;
 
 main{
 width: 380px;
+margin: 0 auto;
+padding-left: 0
 }
 
 footer{
 width: 380px;
+margin: 0 auto;
 }
 nav ul li{
 display: block;
 text-align: center;
 }
 
-#grid100, #grid17, #grid15, #grid16, #grid45{
+#foot img{
 width: 380px;
+}
+
+#gr{
+  width: 380px;
 display: block;
 }
-
-img{
-  width: 60px;
-  height: 50px;
+#gr img{
+width: 380px;
+  display: block;
+  margin: 0 auto;
 }
-
-
-#map{
-  padding-left: 0px;
+#grid45 {
+  width: 380px;
+display: block;
+margin: 0 auto;
+padding-left: 0;
+}
+#grid45 img{
+width: 380px;
+  display: block;
+  margin: 0 auto;
+  padding-left: 0;
+}
+#grid15 {
+  width: 380px;
+display: block;
+padding-left: 0;
+padding-bottom:0;
+}
+#grid15 img{
+  display: block;
+  margin: 0 auto;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+#grid100{
+  width: 380px;
+display: block;
+padding-left: 0;
+}
+#grid100 img{
+width: 380px;
+  display: block;
+  padding-left: 0;
+}
+#grid17{
+  width: 380px;
+display: block;
+padding-left: 0;
+}
+#grid17 img{
+width: 380px;
+  display: block;
+  padding-left: 0;
+}
+#grid16{
+  width: 380px;
+display: block;
+padding-left: 0;
+padding-bottom: 10;
+}
+#grid16 img{
+width: 280px;
+  display: block;
+  padding-left: 0;
+  padding-bottom: 10;
 }

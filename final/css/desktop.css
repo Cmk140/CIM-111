@@ -17,6 +17,8 @@
   }
   body{
     background-color: aliceblue;
+    width:auto;
+    height:auto;
   }
 
   nav ul li{

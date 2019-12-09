@@ -119,11 +119,11 @@
                   height: auto;
                   margin: 3 auto;
                   display:grid;
-                  grid-template-rows: 190px 120px ;
+                  grid-template-rows: 10px  ;
                   grid-template-columns:680px 280px;
                   grid-column-gap:150px;
                   padding-top:20px;
-                  padding-bottom:30px;
+
                   padding-left:260px;
 
                 }

@@ -21,9 +21,16 @@ text-align: center;
 width: 380px;
 display: block;
 }
-#grid2, #grid3{
-width: 80px;
+#grid2{
+width: 380px;
 display: block;
+padding-bottom: 0px;
+padding-left: 0px;
+}
+#grid3{
+width: 380px;
+display: block;
+padding-left: 0px;
 }
 
 #grid1 img{
@@ -32,11 +39,13 @@ width: 380px;
   margin: 0 auto;
 }
 #grid2 img{
-  width: 260px;
+  width: 360px;
+  padding-left: 0px;
 
 }
 #grid3 img{
-  width: 260px;
+  width: 360px;
+  padding-left: 0px;
 
 
 }

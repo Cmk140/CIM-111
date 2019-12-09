@@ -5,9 +5,7 @@
     font-size: 60px;
     text-align: center;
   }
-  #foot{
-    padding-left: 180px;
-  }
+
   nav li a{
     text-decoration: none;
   }
@@ -19,12 +17,7 @@
   height:auto;
   background-color:lightblue;
   margin:0 auto;
-  padding-bottom:20px;
-  padding-top:10px;
-  padding-right: 8px;
-  padding-left: 8px;
-  align-items: center;
-  }
+}
   header{
   width:auto;
   height:auto;
@@ -53,22 +46,35 @@
   text-align: center;
   }
 
+  #yes{
+    width: auto;
+  }
+
+  #yes img{
+    width:1000px;
+    display: block;
+    margin: 0 auto;
+  }
     #grid20{
           width: auto;
           height: auto;
-          margin: 3 auto;
           display:grid;
           grid-template-rows: 190px 120px ;
           grid-template-columns:280px 480px 280px;
-          grid-column-gap:150px;
-          padding-top:20px;
-          padding-bottom:220px;
-          padding-left:100px;
-
+          grid-column-gap:140px;
+          padding-top:120px;
+          padding-bottom:320px;
+          padding-left:65px;
+          margin: 0 auto;
         }
 
     #grid20 img{
-          height:500px;
+          width: 250px;
+        }
+        #foot img{
+          display: block;
+          margin: 0 auto;
+          width: 1000px;
         }
         p{
           font-family: 'Red Hat Text', sans-serif;

@@ -15,7 +15,7 @@
     height:auto;
   }
   main{
-    width: 1060px;
+    width: 1000px;
   /*  height: 500px;*/
     height:0 auto;
     background-color:aliceblue;
@@ -67,16 +67,17 @@
     margin: 0 auto;
   }
     #grid20{
-          width: 2000px;
+          width: 1000px;
           height: auto;
           display:grid;
-          grid-template-rows: 190px 120px ;
-          grid-template-columns:280px 480px 280px;
+          grid-template-rows: 390px  ;
+          grid-template-columns:180px 280px 180px;
           grid-column-gap:140px;
           padding-top:120px;
           padding-bottom:320px;
-          padding-left:65px;
-          margin: 0 auto;
+      padding-right: 300px;
+      text-align: center;
+
         }
 
     #grid20 img{
